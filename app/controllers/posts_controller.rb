@@ -10,7 +10,7 @@ class PostsController < ApplicationController
 
   def body
     render plain: @post.description
-  end 
+  end
   def new
     @post = Post.new
   end
